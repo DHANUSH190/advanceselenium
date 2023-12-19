@@ -10,6 +10,9 @@ public class create {
 	{
 		ChromeDriver driver=new ChromeDriver();
 		Reporter.log("correct");
+		String BROWSER = System.getProperty("browser");
+		Reporter.log(BROWSER);
+		
 	}
 
 }
